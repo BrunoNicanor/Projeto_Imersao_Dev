@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+section{
+    display: flex;
+    /*justify-content: center;*/
+
+    flex-direction: column  ;
+    align-items: center;
+}
+#imagem{
+    background-image: url("../IMAGE/Frame\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-size: cover;*/
+}
+
+header > h1{    
+    font-size: 150px;
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #800000;
+
+    margin-bottom: 0.3em;
+
+    text-shadow: 2px 2px 4px black;
+}
+
+h1 > span{
+    color:yellow;
+}
+
+input[type="Text"]{
+    padding: 0.5em;
+    background-color: #DAD4B5;
+    
+    font-size: 1em;
+    color:black;
+    text-transform: uppercase;
+
+    border-radius: 50px;
+    border: 0px;
+
+    height: 3em;
+    width: 50vw;
+
+    margin: 20px auto;
+
+    box-shadow: 2px 2px 4px #697565;
+}
+
+button{
+    width: 15vw;
+    padding: 10px 5px;
+
+    border-radius: 50px;
+    border: 0px;
+
+    background-color: #800000;
+
+    font-family:"Bangers", system-ui;
+    color: white;
+    font-size: 1.5em;
+
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0px 0px 0px black;
+}
+
+button:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 black;
+    cursor: pointer;
+
+  }
+  
+  button:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 black;
+    background-color: #e62626;
+  }
