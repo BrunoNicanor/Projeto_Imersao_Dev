@@ -16,9 +16,6 @@ section{
     align-items: center;
 }
 
-#Pesquisa{
-    
-}
 #imagem{
     background-image: url("../IMAGE/Frame\ 1.png");
     background-repeat: no-repeat;
@@ -100,7 +97,7 @@ button:hover {
     background-color: #e62626;
   }
 
-  #Conteudo{
+  .Conteudo{
     display: flex;
     flex-direction: row;
 
@@ -116,11 +113,11 @@ button:hover {
     align-items: flex-start;
   }
 
-  #Conteudo > p{
+  .Conteudo > p{
     text-align: justify;
   }
 
-  #Conteudo > img{
+  .Conteudo > img{
     width: 10em;
 
     margin: auto;
@@ -139,6 +136,25 @@ button:hover {
 
   }
 
-  .Conteudo_texto > p{
+  .Conteudo_texto > p, .leia_mais{
     font-family: Open Sans, Trebuchet MS, Helvetica, Arial, sans-serif;
+  }
+
+  .leia_mais{
+    padding: 5px;
+
+    border-radius: 20px;
+
+    background-color: #98DED9;
+
+    margin-left: 80%;
+
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+  }
+
+  a.leia_mais:hover{
+    box-shadow: 2px 2px 4px grey;
+    background-color: rgb(247, 247, 68);
   }
