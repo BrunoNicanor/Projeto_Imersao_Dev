@@ -119,6 +119,8 @@ button:hover {
 
   .Conteudo > img{
     width: 10em;
+    height: 11em;
+    object-fit: scale-down;
 
     margin: auto;
   }
