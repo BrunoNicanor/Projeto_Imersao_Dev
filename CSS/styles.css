@@ -110,10 +110,10 @@ button:hover {
   button:active {
     transform: translateY(2px) translateX(1px);
     box-shadow: 0 0 0 0 black;
-    background-color: #e62626;
+    background-color: grey;
   }
 
-  .Conteudo{
+  .Conteudo, .Conteudo_Aviso{
     display: flex;
     flex-direction: row;
 
@@ -152,6 +152,16 @@ button:hover {
 
     margin: 0;
 
+  }
+
+  .Conteudo_Aviso{
+    width: 30vw;
+
+    justify-content: center;
+  }
+
+  .Conteudo_Aviso > .Conteudo_texto{
+    margin-left: 0;
   }
 
   .Conteudo_texto > p, .leia_mais{
