@@ -8,7 +8,7 @@ Este projeto é uma página web interativa que lista alguns dos heróis mais ic�
    Primeiro, você precisa clonar o projeto do GitHub para a sua máquina. Abra o terminal e use o seguinte comando:
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/BrunoNicanor/Projeto_Imersao_Dev.git
    ```
 
 2. **Acesse o diretório do projeto:**
@@ -18,12 +18,7 @@ Este projeto é uma página web interativa que lista alguns dos heróis mais ic�
    ```
 
 3. **Abra o arquivo `index.html`:**
-   Agora, é só abrir o arquivo `index.html` no seu navegador favorito. Se você quiser rodar um servidor local para facilitar, pode usar a extensão *Live Server* do VSCode ou qualquer servidor HTTP simples, como o Python:
-
-   Com Python:
-   ```bash
-   python -m http.server
-   ```
-
+   Agora, é só abrir o arquivo `index.html` no seu navegador favorito. 
+   
 4. **Pronto!**
    Acesse a URL `http://localhost:8000` no navegador e veja sua página rodando.
