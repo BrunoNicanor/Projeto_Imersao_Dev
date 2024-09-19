@@ -56,7 +56,7 @@ const personagens = [
         imagem: "/IMAGE/Personagens/doutorEstranho.jpg"
     },
     {
-        nome: "homem-formiga",
+        nome: "homem formiga",
         descricao: "O Homem-Formiga, Scott Lang, é um ex-ladrão que usa uma tecnologia avançada que lhe permite encolher a níveis subatômicos. Criado por David Michelinie e John Byrne, Scott Lang estreou como Homem-Formiga em *Marvel Premiere* #47, em 1979.",
         link: "https://pt.wikipedia.org/wiki/Homem-Formiga",
         imagem: "/IMAGE/Personagens/homemFormiga.png"
@@ -104,7 +104,7 @@ const personagens = [
         imagem: "/IMAGE/Personagens/gamora.png"
     },
     {
-        nome: "drax, o destruidor",
+        nome: "drax",
         descricao: "Drax é um membro dos Guardiões da Galáxia, conhecido por sua força sobre-humana e habilidades de combate. Criado por Jim Starlin, ele apareceu pela primeira vez em *Iron Man* #55, em 1973.",
         link: "https://pt.wikipedia.org/wiki/Drax_(Marvel_Comics)",
         imagem: "/IMAGE/Personagens/drax.png"

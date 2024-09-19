@@ -47,7 +47,7 @@ input[type="Text"]{
     
     font-size: 1em;
     color:black;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 
     border-radius: 50px;
     border: 0px;
@@ -68,9 +68,16 @@ input::placeholder {
     padding-left: 20px;
 }
 
+#botoes{
+  display: inline-block;
+
+}
+
 button{
     width: 15vw;
     padding: 10px 5px;
+
+    margin: 0 1em;
 
     border-radius: 50px;
     border: 0px;
@@ -85,8 +92,17 @@ button{
     box-shadow: 0px 0px 0px black;
 }
 
+button + button{
+  letter-spacing: 1.5px;
+  color: #a10606;
+  font-size: 2em;
+  background-color: yellow;
+  text-shadow: 2px 2px 2px black;
+}
+
 button:hover {
     transform: translateY(-4px) translateX(-2px);
+    border: solid 2px white;
     box-shadow: 2px 5px 0 0 black;
     cursor: pointer;
   }

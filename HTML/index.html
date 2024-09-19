@@ -14,9 +14,12 @@
 
     <main>
         <section>
-            <input type="text" placeholder="Digite o nome de um super-herói:">
+            <input id="conteudo-pesquisa" type="text" placeholder="Digite o nome de um super-herói:">
             <br>
-            <button onclick="pesquisar()">Pesquisar</button>
+            <div class="botoes">
+                <button onclick="pesquisar()">Pesquisar</button>
+                <button onclick="listar()">Listar</button>
+            </div>
         </section>
         <div id="dados_pesquisa">
             <!-- <section class="Conteudo">
